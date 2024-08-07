@@ -1,0 +1,12 @@
+# all ignore
+*
+!*/
+
+# allow list
+!.gitignore
+!README.md
+!LICENSE
+!packages/.gitkeep
+!install.ps1
+!launch_sandbox.wsb
+!winget_packages.json
