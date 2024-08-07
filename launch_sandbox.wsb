@@ -1,0 +1,14 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+            <SandboxFolder>C:\users\WDAGUtilityAccount\Mount</SandboxFolder>
+            <HostFolder></HostFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command>powershell 
+        -executionpolicy unrestricted 
+        -command "start powershell -WorkingDirectory C:\users\WDAGUtilityAccount\Mount\scripts -WindowStyle Minimized {-noexit -file install.ps1}"</Command>
+    </LogonCommand>
+</Configuration>
