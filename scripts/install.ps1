@@ -55,9 +55,9 @@ function Set-Package([string]$Url, [string]$PackageFileName)
 
 <#
     .SYNOPSIS
-        メイン処理
+        インストールメイン処理
 #>
-function Main
+function InstallMain
 {
     $package_array = @()
 
@@ -87,4 +87,4 @@ function Main
     winget import ${WorkMountDir}\scripts\winget_packages.json
 }
 
-Main
+InstallMain
