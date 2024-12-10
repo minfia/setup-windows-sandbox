@@ -7,6 +7,8 @@
 !README.md
 !LICENSE
 !packages/.gitkeep
+!setup.ps1
 !install.ps1
+!sys_config.ps1
 !launch_sandbox.wsb
 !winget_packages.json

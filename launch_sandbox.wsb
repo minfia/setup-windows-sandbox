@@ -9,6 +9,6 @@
     <LogonCommand>
         <Command>powershell 
         -executionpolicy unrestricted 
-        -command "start powershell -WorkingDirectory C:\users\WDAGUtilityAccount\Mount\scripts -WindowStyle Minimized {-noexit -file install.ps1}"</Command>
+        -command "start powershell -WorkingDirectory C:\users\WDAGUtilityAccount\Mount\scripts -WindowStyle Minimized {-noexit -file setup.ps1}"</Command>
     </LogonCommand>
 </Configuration>
