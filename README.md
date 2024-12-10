@@ -3,9 +3,10 @@
 "launch_sandbox.wsb"を実行することで環境構築が可能となる。
 
 ## 使い方
-1. [個人ごとに変更が必要な箇所](#-個人ごとに変更が必要な箇所)にある変更をする
+1. [個人ごとに変更が必要な箇所](#個人ごとに変更が必要な箇所)にある変更をする
 1. launch_sandbox.wsbを実行
-1. Sandboxが起動し自動で各アプリケーションをダウンロード、インストールする
+1. Sandboxが起動し自動で各アプリケーションをダウンロード、インストールする\
+   インストール完了後にロケール設定で1度Sandboxが再起動する
 
 以下の手順で2回目以降の起動時にファイルのダウンロードを省略することが可能。
 1. 各アプリケーションのインストールを完了させる
@@ -25,14 +26,14 @@
 ただし、インストールに必要な前提アプリは除く。\
 インストールをしたくない場合は"設定箇所"のファイルから削除すること。
 
-| No. | アプリ名           | バージョン   | 設定箇所             | WinGet使用 |
-| :-: | :----------------- | :----------- | :------------------- | :--------: |
-|  1  | WinGet             | 1.8.1791     | install.ps1          |     No     |
-|  2  | PowerShell         | 7.4.3        | install.ps1          |     No     |
-|  3  | WindowsTerminal    | 1.20.11781.0 | install.ps1          |     No     |
-|  4  | Visual Studio Code | latest       | winget_packages.json |     Yes    |
-|  5  | Firefox            | latest       | winget_packages.json |     Yes    |
-|  6  | Google Chrome      | latest       | winget_packages.json |     Yes    |
+|  No.  |      アプリ名      |  バージョン  |       設定箇所       | WinGet使用 |
+| :---: | :----------------- | :----------- | :------------------- | :--------: |
+|   1   | WinGet             | 1.8.1791     | install.ps1          |     No     |
+|   2   | PowerShell         | 7.4.3        | install.ps1          |     No     |
+|   3   | WindowsTerminal    | 1.20.11781.0 | install.ps1          |     No     |
+|   4   | Visual Studio Code | latest       | winget_packages.json |    Yes     |
+|   5   | Firefox            | latest       | winget_packages.json |    Yes     |
+|   6   | Google Chrome      | latest       | winget_packages.json |    Yes     |
 
 ## 設定項目
 以下はSandBox起動時に設定されるものである。
